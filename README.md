@@ -2,7 +2,7 @@
 
 1. install all the Dependencies.
 
-2. create a file 'config-overrides.js' in your project's source folder with following content :
+2. create a file `config-overrides.js` in your project's source folder with following content :
 
 ```javascript
 module.exports = (config, env) => {
