@@ -2,7 +2,7 @@
 
 0. Clone the repository in your project's root folder or `src` folder.
 
-1. Copy all the dependencies from `package.json` to your project's `package.json`
+1. Copy all the dependencies from `package.json` to your project's `package.json` (except which are already there)
 
 2. create a file `config-overrides.js` in your project's root folder with following code :
 
