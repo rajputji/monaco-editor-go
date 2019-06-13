@@ -46,5 +46,6 @@ const langServer = {
 7. run your react-app :
 
 ```
+  npm install
   npm start
 ```
