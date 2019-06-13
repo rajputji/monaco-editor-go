@@ -37,10 +37,7 @@ const langServer = {
   path: "/sampleServer"
 };
 
-ReactDOM.render(
-  <MoanacoGo langServer={langServer} />,
-  document.getElementById("editor-container")
-);
+  <MoanacoGo langServer={langServer} />
 ```
 
 7. run your react-app :
