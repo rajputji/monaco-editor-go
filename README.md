@@ -1,6 +1,6 @@
 #Follow these steps:
 
-1. install all the Dependencies.
+1. Copy all the dependencies from `package.json` to your project's `package.json`
 
 2. create a file `config-overrides.js` in your project's source folder with following content :
 
