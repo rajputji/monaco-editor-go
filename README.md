@@ -1,8 +1,10 @@
 #Follow these steps:
 
+0. Clone the repository in your project's root folder or `src` folder.
+
 1. Copy all the dependencies from `package.json` to your project's `package.json`
 
-2. create a file `config-overrides.js` in your project's source folder with following content :
+2. create a file `config-overrides.js` in your project's root folder with following code :
 
 ```javascript
 module.exports = (config, env) => {
@@ -13,7 +15,7 @@ module.exports = (config, env) => {
 };
 ```
 
-3. change "start" script in your package.json file as
+3. change `"start"` script in your `package.json` file as
 ```
    "start" : "react-app-rewired start"
 ```
