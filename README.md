@@ -14,8 +14,9 @@ module.exports = (config, env) => {
 ```
 
 3. change "start" script in your package.json file as
+```
    "start" : "react-app-rewired start"
-
+```
 4. import MoanacoGo from "PATH_TO_EDITOR" in your react component.
 
 5. start language server by running following command :
